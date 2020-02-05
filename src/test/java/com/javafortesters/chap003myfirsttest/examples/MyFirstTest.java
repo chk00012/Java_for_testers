@@ -11,7 +11,16 @@ public class MyFirstTest {
 
         int answer = 2 + 2;
         assertEquals("2+2=4", 4, answer);
-
+    }
+    @Test
+    public void canAddTwoPlusZero() {
+        int answer  = 2 - 2;
+        assertEquals("2-2=0", 0, answer);
+    }
+    @Test
+    public void canFourDividedByTwo() {
+        int answer = 4/2;
+        assertEquals("4/2=2", 2, answer);
 
     }
 
