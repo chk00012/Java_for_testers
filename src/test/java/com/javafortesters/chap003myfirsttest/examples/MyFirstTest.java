@@ -21,7 +21,12 @@ public class MyFirstTest {
     public void canFourDividedByTwo() {
         int answer = 4/2;
         assertEquals("4/2=2", 2, answer);
-
     }
 
+    @Test
+    public void integerFour() {
+        Integer four = new Integer(4);
+        assertEquals("4 is returned",4, four.intValue());
+
+    }
 }
