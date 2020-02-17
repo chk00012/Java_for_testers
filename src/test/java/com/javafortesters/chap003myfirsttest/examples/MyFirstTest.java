@@ -50,5 +50,19 @@ public class MyFirstTest {
         assertEquals("that 21 becomes 15", "15", hex.toHexString(hex));
     }
 
+    @Test
+    public void maxValue() {
+        Integer max = 2147483647 ;
+        assertEquals(2147483647, max.MAX_VALUE);
+    }
+    @Test
+    public void minValue() {
+        Integer min = -2147483648 ;
+        assertEquals(-2147483648, min.MIN_VALUE);
+    }
+
 
 }
+
+
+
