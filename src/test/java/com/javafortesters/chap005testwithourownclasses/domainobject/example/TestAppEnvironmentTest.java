@@ -1,6 +1,6 @@
 package com.javafortesters.chap005testwithourownclasses.domainobject.example;
 
-import static com.javafortesters.chap005testwithourownclasses.domainobject.TestAppEnv.*;
+import static com.javafortesters.chap005testwithourownclasses.domainobject.example.TestAppEnv.*;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

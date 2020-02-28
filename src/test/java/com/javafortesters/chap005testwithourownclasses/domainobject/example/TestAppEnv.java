@@ -1,4 +1,4 @@
-package com.javafortesters.chap005testwithourownclasses.domainobject;
+package com.javafortesters.chap005testwithourownclasses.domainobject.example;
 
 public class TestAppEnv {
    	public	static	final	String	DOMAIN	=	"192.123.0.3";
